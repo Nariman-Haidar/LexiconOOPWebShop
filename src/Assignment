@@ -1,0 +1,56 @@
+Introduction to OOP with Java Webshop
+Exercise 1: First Class
+Create a simple product class
+Task:----
+Create a Product class with name, price and stock quantity
+Add a constructor that sets the values
+Create a method that prints product information
+Test by creating some products in the main method
+Reflect on:--
+Try:
+What is the difference from just using variables?
+Why is it good to collect related data in a class?
+1. First with all variables public
+2. Then with private variables and get methods
+Exercise 2: Encapsulation
+Protect data and add validation
+Task:----
+Make all variables private
+Create get/set methods
+Add simple validation (price > 0, stock quantity >= 0)
+Add a method to reduce stock balance
+Reflect on:--
+Why do we want to protect our variables?
+What happens if we don't validate the data?
+Exercise 3: Multiple Classes
+Introduce collaboration between classes
+Task:
+--
+Create a ShoppingCart class that can contain products
+Add methods to:
+● Add products
+● Calculate total price
+● View shopping cart contents
+Reflect on:--
+How can classes collaborate?
+Which class should be responsible for what?
+Exercise 4: Inheritance
+Introduce different types of products
+Task:--
+Create a DigitalProduct that inherits from Product
+Create a PhysicalProduct that inherits from Product
+Add specific properties for each type
+● Digital: download link
+● Physical: weight
+Reflect on:--
+What functionality can be reused?
+What needs to be different for different product types?
+Tips for all exercises----
+Start simple, add more gradually
+Test the code often with different values
+Focus on understanding one concept at a time
+Think about real-world examples of the concepts
+Good questions to ask yourself--
+What am I trying to protect with encapsulation?
+When is it appropriate to inherit vs. create a new class?
+How can I make the code easier to understand?
